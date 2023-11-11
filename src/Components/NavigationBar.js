@@ -8,15 +8,11 @@ function NavigationBar () {
             <div
                 style ={{
                     display:"flex",
-                    margin:"1%",
-                    // background:"blue",
+                    padding:"1%",
+                    boxShadow: "0px 1px 7px -1px rgba(0,0,0,0.2)"
                 }}
             >
-                <div
-                    style ={{
-                        justifyContent:"flex-start",
-                    }}
-                >
+                <div>
                     <button
                         className="Button1"
                     >
