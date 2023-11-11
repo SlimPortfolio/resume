@@ -7,8 +7,8 @@ function NavigationBar () {
             <div
                 style ={{
                     display:"flex",
-                    backgroundColor:"red",
-                    color:"blue",
+                    margin:"1%",
+                    // background:"blue",
                 }}
             >
                 <div
@@ -16,7 +16,18 @@ function NavigationBar () {
                         justifyContent:"flex-start",
                     }}
                 >
-                    <button>HOME</button>
+                    <button
+                        style ={{
+                            border: "none",
+                            backgroundColor: "white",
+                            fontFamily: "open-sans, sans-serif",
+                            fontWeight: "bold",
+                            margin: "10%",
+                            padding: "10%",
+                        }}
+                    >
+                        Home
+                    </button>
                 </div>
 
                 <div
@@ -26,9 +37,38 @@ function NavigationBar () {
                         flexGrow:"1",
                     }}
                 >
-                    <button>About Me</button>
-                    <button>Projects</button>
-                    <button>Resume</button>
+                    <button
+                        style ={{
+                            border: "none",
+                            backgroundColor: "white",
+                            fontFamily: "open-sans, sans-serif",
+                            fontWeight: "bold",
+                        }}
+                    >
+                        About Me
+                    </button>
+                    <button
+                        style ={{
+                            border: "none",
+                            backgroundColor: "white",
+                            fontFamily: "open-sans, sans-serif",
+                            fontWeight: "bold",
+                        }}
+                    >
+                        Projects
+                    </button>
+                    <button
+                        style ={{
+                            border: "none",
+                            borderRadius:"10%",
+                            backgroundColor: "blue",
+                            fontFamily: "open-sans, sans-serif",
+                            fontWeight: "bold",
+                            color:"white",
+                        }}
+                    >
+                        Resume
+                    </button>
                 </div>   
             </div>
         </Fragment>
