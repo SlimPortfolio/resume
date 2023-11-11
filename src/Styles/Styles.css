@@ -1,0 +1,15 @@
+.Button1 {
+    border: none;
+    background-color: white;
+    font-family: open-sans, sans-serif;
+    font-weight: bold;
+}
+
+.Button2 {
+    border: none;
+    border-radius:10%;
+    background-color: blue;
+    font-family: open-sans, sans-serif;
+    font-weight: bold;
+    color: white;
+}

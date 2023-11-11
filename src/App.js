@@ -5,7 +5,7 @@ import NavigationBar from './Components/NavigationBar';
 function App() {
   return (
     <div className="">
-      <header className="App-heade">
+      <header className="">
         <NavigationBar />
       </header>
     </div>

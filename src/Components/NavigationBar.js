@@ -1,4 +1,5 @@
 import React, { Fragment } from "react"; 
+import '../Styles/Styles.css';
 
 function NavigationBar () {
 
@@ -17,14 +18,7 @@ function NavigationBar () {
                     }}
                 >
                     <button
-                        style ={{
-                            border: "none",
-                            backgroundColor: "white",
-                            fontFamily: "open-sans, sans-serif",
-                            fontWeight: "bold",
-                            margin: "10%",
-                            padding: "10%",
-                        }}
+                        className="Button1"
                     >
                         Home
                     </button>
@@ -38,34 +32,17 @@ function NavigationBar () {
                     }}
                 >
                     <button
-                        style ={{
-                            border: "none",
-                            backgroundColor: "white",
-                            fontFamily: "open-sans, sans-serif",
-                            fontWeight: "bold",
-                        }}
+                        className="Button1"
                     >
                         About Me
                     </button>
                     <button
-                        style ={{
-                            border: "none",
-                            backgroundColor: "white",
-                            fontFamily: "open-sans, sans-serif",
-                            fontWeight: "bold",
-                        }}
+                        className="Button1"
                     >
                         Projects
                     </button>
                     <button
-                        style ={{
-                            border: "none",
-                            borderRadius:"10%",
-                            backgroundColor: "blue",
-                            fontFamily: "open-sans, sans-serif",
-                            fontWeight: "bold",
-                            color:"white",
-                        }}
+                        className="Button2"
                     >
                         Resume
                     </button>
