@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import profilePicture from '../Images/profilePicture.jpg';
 function Intro () {
 
     return (
@@ -9,8 +9,8 @@ function Intro () {
                 style={{
                     marginLeft: "25%",
                     marginRight: "25%",
+                    marginTop: "3%",
                     display: "flex",
-                    // backgroundColor:"green"
                 }}
             >
                 <div
@@ -77,11 +77,18 @@ function Intro () {
                 </div>
                 <div
                     style={{
-                        backgroundColor: "blue",
                         width: "40%",
                     }}
                 >
-                    <h1>IMAGE PLACEHOLDER</h1>
+                    <img 
+                        src={profilePicture}
+                        style={{
+                            marginTop:"50px",
+                            width:"90%",
+                            borderRadius:"0% 100% 100% 100%",
+                            boxShadow: "0px 5px 7px -1px rgba(0,0,0,0.2)"
+                        }} 
+                    ></img>
                 </div>
                 
             </div>
