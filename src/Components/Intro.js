@@ -19,11 +19,7 @@ function Intro () {
                     <button>More About Me</button>
                     <button>Projects</button>
                 </div>
-                <div
-                    style={{
-                        width: "40%",
-                    }}
-                >
+                <div className="Intro-Image">
                     <img src={profilePicture}></img>
                 </div>
                 
