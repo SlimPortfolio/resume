@@ -21,3 +21,50 @@
     margin-right: 25px;
     padding: 10px;
 }
+
+.Content-Area-1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.Content-Area-1 button {
+    background-color: #2271b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.Intro-Content {
+    width: 60%;
+    margin-right: 30px;
+}
+
+.Intro-Content p:first-of-type{
+    font-size: 27px;
+    color: #2271b1;
+    margin-bottom:4px;
+}
+
+.Intro-Content h1 {
+    margin-top: 5px;
+    font-family: proxima-nova, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.Description-Text {
+    font-size: 24px;
+    color: #373d3f;
+}
+
+.Content-Area-1 img {
+    margin-top:50px;
+    width:350px;
+    border-radius:0% 100% 100% 100%;
+    box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.2);
+}
