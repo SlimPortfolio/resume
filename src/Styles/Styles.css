@@ -73,3 +73,24 @@
 .Intro-Image {
     width: 40%;
 }
+
+.Content-Area-2 {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.About-Me-Grid {
+    display: flex;
+    padding: "50px";
+}
+
+.About-Me-Grid-Text {
+    display: flex;
+    align-items: center;
+}
+
+.About-Me-Grid img {
+    width: 30%;
+}
