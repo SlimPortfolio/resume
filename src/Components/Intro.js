@@ -14,7 +14,7 @@ function Intro () {
                     <p>Hello I'm</p>
                     <h1>Steven Lim</h1>
                     <p className="Description-Text">
-                        I'm a Fullstack Software Engineer who loves collaborating with people and finding creative solutions to complex problems.
+                        I'm a Fullstack Software Engineer who loves collaborating with people and finding creative solutions to complex problems. Keep scrolling to learn more about me!
                     </p>
                     <button>More About Me</button>
                     <button>Projects</button>
