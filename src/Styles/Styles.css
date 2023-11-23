@@ -72,25 +72,34 @@
 
 .Intro-Image {
     width: 40%;
+    align-content: end;
 }
 
 .Content-Area-2 {
     margin-left: 18%;
-    margin-right: 18%;
+    margin-right: 25%;
     margin-top: 6%;
     margin-bottom: 6%;
 }
 
 .About-Me-Grid {
     display: flex;
-    padding: "50px";
+    padding: 50px;
+    /* border-color: #2271b1;
+    border-style: solid; */
+    margin-bottom:40px;
+    /* border-radius: 10px;
+    border-width: 2px; */
 }
 
 .About-Me-Grid-Text {
     display: flex;
     align-items: center;
+    font-size: 26px;
+    color: #373d3f;
 }
 
 .About-Me-Grid img {
-    width: 30%;
+    width: 170px;
+    margin-right: 120px;
 }
