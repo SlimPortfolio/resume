@@ -77,7 +77,7 @@
 
 .Content-Area-2 {
     margin-left: 18%;
-    margin-right: 25%;
+    margin-right: 18%;
     margin-top: 6%;
     margin-bottom: 6%;
 }
@@ -100,6 +100,32 @@
 }
 
 .About-Me-Grid img {
-    width: 170px;
+    width: 200px;
+    object-fit: contain;
     margin-right: 120px;
+}
+
+.Skills-Box {
+    border: #373d3f;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.Skills-Box-Carousel {
+    height: 200px;
+    display: flex;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.Skills-Box img {
+    height:100%;
+    width: 100%;
+    object-fit:contain;
+}
+
+.Skills-Box-Title {
+    text-align: center;
 }

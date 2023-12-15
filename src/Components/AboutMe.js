@@ -22,7 +22,7 @@ function AboutMe() {
                 <div className="About-Me-Grid">
                     <img src={briefcase}></img>
                     <div className="About-Me-Grid-Text">
-                        <p>After graduation, I worked in two coroporate roles, but always found my self leaning in to the more problem solving aspects of those roles. I discovered that I love learning the "how" behind all of things we experience on a daily basis in our modern society.</p>
+                        <p>After graduation, I worked in two corporate roles, but always found my self leaning in to the more problem solving aspects of those roles. I discovered that I love learning the "how" behind all of things we experience on a daily basis in our modern society.</p>
                     </div>
                 </div>
                 

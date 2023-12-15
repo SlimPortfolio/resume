@@ -3,7 +3,7 @@ import './App.css';
 import NavigationBar from './Components/NavigationBar';
 import Intro from './Components/Intro';
 import AboutMe from './Components/AboutMe';
-
+import Skills from './Components/Skills';
 function App() {
   return (
     <div className="">
@@ -11,6 +11,7 @@ function App() {
         <NavigationBar />
         <Intro />
         <AboutMe />
+        <Skills />
       </header>
     </div>
   );
