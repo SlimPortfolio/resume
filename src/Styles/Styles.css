@@ -129,3 +129,17 @@
 .Skills-Box-Title {
     text-align: center;
 }
+
+.Project-Card {
+    border-radius: 10px;
+    height: 325px;
+    width: 300px;
+    overflow: hidden;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.Project-Card img {
+    object-fit: contain;
+    height: 100%;
+}
