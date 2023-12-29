@@ -143,3 +143,12 @@
     object-fit: contain;
     height: 100%;
 }
+
+.show {
+    opacity: 1;
+    transition: 2s;
+}
+
+.hidden {
+    opacity: 0;
+}

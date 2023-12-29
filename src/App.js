@@ -6,17 +6,65 @@ import AboutMe from './Components/AboutMe';
 import Skills from './Components/Skills';
 import ProjectCard from './Components/ProjectCard';
 import Projects from './Components/Projects';
-import dlp from './Images/DLP.png'
+import { Fragment, useEffect, useRef, useState } from 'react';
+
 function App() {
+  const aboutRef = useRef();
+  const skillsRef = useRef();
+  const projectsRef = useRef();
+
+  useEffect(() => {
+    const aboutObserver = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      entry.target.classList.toggle("show", entry.isIntersecting)
+      if(entry.isIntersecting) {
+        entry.target.classList.remove("hidden")
+        aboutObserver.unobserve(entry.target)
+      }
+    },{threshold:.25})
+    
+    const skillsObserver = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      entry.target.classList.toggle("show", entry.isIntersecting)
+      if(entry.isIntersecting) {
+        entry.target.classList.remove("hidden")
+        aboutObserver.unobserve(entry.target)
+      }
+    },{threshold:.25})
+
+    const projectsObserver = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      entry.target.classList.toggle("show", entry.isIntersecting)
+      if(entry.isIntersecting) {
+        entry.target.classList.remove("hidden")
+        aboutObserver.unobserve(entry.target)
+      }
+    },{threshold:.25})
+
+    aboutObserver.observe(aboutRef.current)
+    skillsObserver.observe(skillsRef.current)
+    projectsObserver.observe(projectsRef.current)
+  }, [])
+
+  
+
+
   return (
     <div className="">
       <header className="">
-        <NavigationBar />
-        <Intro />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <ProjectCard picture={dlp}/>
+        <Fragment>
+          <NavigationBar />
+          <Intro/>
+          <div className='hidden' ref={aboutRef}>
+            <AboutMe />
+          </div>
+          <div className='hidden' ref={skillsRef}>
+            <Skills />
+          </div>
+          <div className='hidden' ref={projectsRef}>
+            <Projects />
+          </div>
+        </Fragment>
       </header>
     </div>
   );
