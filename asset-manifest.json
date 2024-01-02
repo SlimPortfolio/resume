@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.fef08065.css",
+    "main.js": "/resume/static/js/main.c888daba.js",
+    "static/js/787.883ba16e.chunk.js": "/resume/static/js/787.883ba16e.chunk.js",
+    "static/media/DLP.png": "/resume/static/media/DLP.6439269727c7362d765e.png",
+    "static/media/profilePicture.jpg": "/resume/static/media/profilePicture.4c5af16931bf1053267c.jpg",
+    "static/media/tamuc.jpg": "/resume/static/media/tamuc.8d9724f0f46fc6651368.jpg",
+    "static/media/js-logo.png": "/resume/static/media/js-logo.130c0ecd57833da6f75c.png",
+    "static/media/java-logo.png": "/resume/static/media/java-logo.624727f85e1e0746431f.png",
+    "static/media/learn.png": "/resume/static/media/learn.6843d1737b19bd8005bd.png",
+    "static/media/react-logo.png": "/resume/static/media/react-logo.598c274386446bb54ac6.png",
+    "static/media/briefcase.png": "/resume/static/media/briefcase.c9b9f790eeb58606854f.png",
+    "static/media/git-logo.png": "/resume/static/media/git-logo.13ab150a918ba929c6b4.png",
+    "static/media/placeholderImage.png": "/resume/static/media/placeholderImage.e98c9df34698dc4a5b7a.png",
+    "static/media/css-logo.png": "/resume/static/media/css-logo.1e19f76649d7c4174764.png",
+    "static/media/logo.svg": "/resume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/resume/index.html",
+    "main.fef08065.css.map": "/resume/static/css/main.fef08065.css.map",
+    "main.c888daba.js.map": "/resume/static/js/main.c888daba.js.map",
+    "787.883ba16e.chunk.js.map": "/resume/static/js/787.883ba16e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fef08065.css",
+    "static/js/main.c888daba.js"
+  ]
+}
