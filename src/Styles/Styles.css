@@ -137,11 +137,54 @@
     overflow: hidden;
     margin-left:10px;
     margin-right:10px;
+    position:relative;
+    bottom: 325px;
+    z-index: 1; 
 }
 
 .Project-Card img {
     object-fit: contain;
     height: 100%;
+}
+
+/* .Project-Card:hover {
+    opacity:30%;
+    transition:.75s;
+    z-index:1;
+} */
+
+.Project-Card-Text {
+    border-radius:10px;
+    height:325px;
+    width:300px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:black;
+    position:relative;
+    color:white;
+    opacity: 0;
+    z-index: 2;
+
+}
+
+.Project-Card-Text:hover {
+    opacity:90%;
+    transition:.75s;
+}
+
+.Project-Card-Text button {
+    color:white;
+    background: none;
+    border-radius:10px;
+    height:325px;
+    width:300px;
+    font-size:40px;
+    font-family: open-sans, sans-serif;
+    cursor: pointer;
+}
+
+.Project-Container {
+    margin-bottom: -325px;
 }
 
 .show {

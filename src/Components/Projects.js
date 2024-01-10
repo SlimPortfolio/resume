@@ -9,7 +9,7 @@ function Projects () {
 
             <div>
                 <h1>Here is the project section</h1>
-                <ProjectCard picture={dlp}/>
+                <ProjectCard picture={dlp} projectName = "Wedding Music Website" projectLink="https://slimportfolio.github.io/DLP/index.html"/>
                 <ProjectCard picture={dlp}/>
                 <ProjectCard picture={dlp}/>
 
