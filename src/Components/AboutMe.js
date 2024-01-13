@@ -12,6 +12,7 @@ function AboutMe() {
     return(
         <Fragment>
             <div className="Content-Area-2">
+                <h1 className="Title-Text">My Developer Journey</h1>
                 <div className="About-Me-Grid">
                     <img src={tamuc}></img>
                     <div className="About-Me-Grid-Text">
