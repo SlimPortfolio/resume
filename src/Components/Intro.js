@@ -14,10 +14,10 @@ function Intro() {
             people and finding creative solutions to complex problems. Keep
             scrolling to learn more about me!
           </p>
-          <button>
+          <button className="Button3">
             <ScrollComponent route="about-me" text="More About Me" />
           </button>
-          <button>
+          <button className="Button3">
             <ScrollComponent route="projects" text="Projects" />
           </button>
         </div>

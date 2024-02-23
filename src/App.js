@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NavigationBar from "./Components/NavigationBar";
 import Intro from "./Components/Intro";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
-import ProjectCard from "./Components/ProjectCard";
 import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 import { Fragment, useEffect, useRef, useState } from "react";
 
 function App() {
@@ -69,6 +68,9 @@ function App() {
           </div>
           <div className="hidden" id="projects" ref={projectsRef}>
             <Projects />
+          </div>
+          <div>
+            <Footer />
           </div>
         </Fragment>
       </header>
