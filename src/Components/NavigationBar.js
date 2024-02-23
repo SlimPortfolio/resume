@@ -15,6 +15,7 @@ function NavigationBar() {
           width: "100%",
           top: "0",
           backgroundColor: "#FFFFFF",
+          zIndex: "3",
         }}
       >
         <div>

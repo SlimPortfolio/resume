@@ -203,3 +203,7 @@
 .Title-Text {
   text-align: center;
 }
+
+html {
+  scroll-padding: 100px;
+}
