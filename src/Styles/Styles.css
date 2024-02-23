@@ -1,148 +1,150 @@
 .Button1 {
-    border: none;
-    background-color: white;
-    font-family: open-sans, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 10px;
+  border: none;
+  background-color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
 }
 
 .Button2 {
-    border: none;
-    border-radius:4px;
-    background-color: #2271b1;
-    font-family: open-sans, sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 16px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2271b1;
+  font-family: open-sans, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
 }
 
 .Content-Area-1 {
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: 6%;
-    margin-bottom: 15%;
-    display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 6%;
+  margin-bottom: 15%;
+  display: flex;
 }
 
 .Content-Area-1 button {
-    background-color: #2271b1;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    margin-right: 5px;
-    padding: 10px;
-    font-size: 16px;
+  background-color: #2271b1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 16px;
 }
 
 .Intro-Content {
-    width: 60%;
-    margin-right: 30px;
+  width: 60%;
+  margin-right: 30px;
 }
 
-.Intro-Content p:first-of-type{
-    font-size: 27px;
-    color: #2271b1;
-    margin-bottom:4px;
+.Intro-Content p:first-of-type {
+  font-size: 27px;
+  color: #2271b1;
+  margin-bottom: 4px;
 }
 
 .Intro-Content h1 {
-    margin-top: 5px;
-    font-family: proxima-nova, sans-serif;
-    font-size: 70px;
-    font-weight: bold;
+  margin-top: 5px;
+  font-family: proxima-nova, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .Description-Text {
-    font-size: 24px;
-    color: #373d3f;
+  font-size: 24px;
+  color: #373d3f;
 }
 
 .Content-Area-1 img {
-    margin-top:50px;
-    width:350px;
-    border-radius:0% 100% 100% 100%;
-    box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.2);
+  margin-top: 50px;
+  width: 350px;
+  border-radius: 0% 100% 100% 100%;
+  box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.2);
 }
 
 .Intro-Image {
-    width: 40%;
-    align-content: end;
+  width: 40%;
+  align-content: end;
 }
 
 .Content-Area-2 {
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: 6%;
-    margin-bottom: 200px;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 6%;
+  margin-bottom: 200px;
 }
 
 .About-Me-Grid {
-    display: flex;
-    padding: 50px;
-    /* border-color: #2271b1;
+  display: flex;
+  padding: 50px;
+  /* border-color: #2271b1;
     border-style: solid; */
-    margin-bottom:6px;
-    /* border-radius: 10px;
+  margin-bottom: 6px;
+  /* border-radius: 10px;
     border-width: 2px; */
 }
 
 .About-Me-Grid-Text {
-    display: flex;
-    align-items: center;
-    font-size: 23px;
-    color: #373d3f;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  color: #373d3f;
 }
 
 .About-Me-Grid img {
-    width: 200px;
-    object-fit: contain;
-    margin-right: 120px;
+  width: 200px;
+  object-fit: contain;
+  margin-right: 120px;
 }
 
 .Skills-Box {
-    margin-left:80px;
-    margin-right:80px;
-    margin-bottom: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 200px;
 }
 
 .Skills-Box-Carousel {
-    height: 200px;
-    display: flex;
-    padding-top:20px;
-    padding-bottom:20px;
+  height: 200px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .Skills-Box img {
-    height:100%;
-    width: 100%;
-    object-fit:contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .Skills-Box-Title {
-    text-align: center;
+  text-align: center;
 }
 
 .Project-Card {
-    border-radius: 10px;
-    height: 325px;
-    width: 300px;
-    overflow: hidden;
-    margin-left:10px;
-    margin-right:10px;
-    position:relative;
-    bottom: 325px;
-    z-index: 1; 
+  border-radius: 10px;
+  height: 325px;
+  width: 300px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 325px;
+  z-index: 1;
 }
 
 .Project-Card img {
-    object-fit: contain;
-    height: 100%;
+  object-fit: contain;
+  height: 100%;
+  margin: auto;
+  object-position: center;
 }
 
 /* .Project-Card:hover {
@@ -152,54 +154,52 @@
 } */
 
 .Project-Card-Text {
-    border-radius:10px;
-    height:325px;
-    width:300px;
-    margin-left:10px;
-    margin-right:10px;
-    background-color:black;
-    position:relative;
-    color:white;
-    opacity: 0;
-    z-index: 2;
-
+  border-radius: 10px;
+  height: 325px;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  position: relative;
+  color: white;
+  opacity: 0;
+  z-index: 2;
 }
 
 .Project-Card-Text:hover {
-    opacity:90%;
-    transition:.75s;
+  opacity: 90%;
+  transition: 0.75s;
 }
 
 .Project-Card-Text button {
-    color:white;
-    background: none;
-    border-radius:10px;
-    height:325px;
-    width:300px;
-    font-size:40px;
-    font-family: open-sans, sans-serif;
-    cursor: pointer;
+  color: white;
+  background: none;
+  border-radius: 10px;
+  height: 325px;
+  width: 300px;
+  font-size: 40px;
+  font-family: open-sans, sans-serif;
+  cursor: pointer;
 }
 
 .Project-Container {
-    margin-bottom: -325px;
+  margin-bottom: -325px;
 }
 
 .Projects {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .show {
-    opacity: 1;
-    transition: 2s;
+  opacity: 1;
+  transition: 2s;
 }
 
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }
 
 .Title-Text {
-    text-align: center;
+  text-align: center;
 }
