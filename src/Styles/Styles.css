@@ -188,16 +188,56 @@
   width: 300px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: black;
   position: relative;
   color: white;
   opacity: 0;
   z-index: 2;
 }
 
+.Project-Card-Text-Section-1 {
+  background-color: #555555;
+  position: relative;
+  color: white;
+  z-index: 5;
+  object-fit: contain;
+  border-radius: 10px 10px 0px 0px;
+  height: 15%;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Project-Card-Text-Section-2 {
+  background-color: black;
+  position: relative;
+  color: white;
+  z-index: 5;
+  height: 40px;
+  border-radius: 0px 0px 10px 10px;
+  height: 85%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Project-Card-Text-Section-2 .description {
+  flex-grow: 1;
+  padding-top: 10%;
+}
+
+.Project-Card-Text-Section-2 .tech {
+  padding: 5%;
+  color: #bbbbbb;
+}
+
 .Project-Card-Text:hover {
   opacity: 90%;
   transition: 0.75s;
+  cursor: pointer;
 }
 
 .Project-Card-Text button {
@@ -213,6 +253,10 @@
 
 .Project-Container {
   margin-bottom: -325px;
+}
+
+.Project-Container a {
+  text-decoration: none;
 }
 
 .Projects {

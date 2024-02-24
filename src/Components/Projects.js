@@ -15,16 +15,22 @@ function Projects() {
           picture={dlp}
           projectName="Wedding Music Website"
           projectLink="https://slimportfolio.github.io/DLP/index.html"
+          projectDescription="Fullstack web application for prospective clients to learn about wedding music services and submit lead information"
+          projectTech="Java MySQL HTML CSS JS"
         />
         <ProjectCard
           picture={pies}
           projectName="How Many Pies"
           projectLink="https://github.com/SlimPortfolio/HowManyPies"
+          projectDescription="Java-based project helping a user answer the age-old question of, 'How many pizzas to order for a Group?'"
+          projectTech="Java"
         />
         <ProjectCard
           picture={resume}
           projectName="Resume Website"
           projectLink="https://slimportfolio.github.io/resume/"
+          projectDescription="Frontend webpage resume, with completely customized React Components."
+          projectTech="React CSS JS"
         />
       </div>
     </Fragment>
