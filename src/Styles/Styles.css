@@ -252,7 +252,8 @@
 }
 
 .Project-Container {
-  margin-bottom: -325px;
+  /* margin-bottom: -325px; */
+  height: 325px;
 }
 
 .Project-Container a {

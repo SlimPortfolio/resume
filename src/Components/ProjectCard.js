@@ -6,10 +6,7 @@ function ProjectCard(props) {
     <Fragment>
       <div className="Project-Container">
         <a href={props.projectLink} target="_blank">
-          <div className="Project-Card-Text" onClick={() => {}}>
-            {/* <a href={props.projectLink} target="_blank">
-                        <button>{props.projectName}</button>
-                    </a>     */}
+          <div className="Project-Card-Text">
             <div className="Project-Card-Text-Section-1">
               <p>{props.projectName}</p>
             </div>
@@ -18,10 +15,10 @@ function ProjectCard(props) {
               <span className="tech">{props.projectTech}</span>
             </div>
           </div>
-          <div className="Project-Card">
-            <img src={props.picture}></img>
-          </div>
         </a>
+        <div className="Project-Card">
+          <img src={props.picture}></img>
+        </div>
       </div>
     </Fragment>
   );

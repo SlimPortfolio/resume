@@ -5,7 +5,7 @@ export default function Footer() {
         backgroundColor: "#2271b1",
         display: "block",
         flexGrow: "1",
-        height: "30%",
+        height: "200px",
         width: "100%",
         bottom: "0",
       }}
