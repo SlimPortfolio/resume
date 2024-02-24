@@ -3,9 +3,11 @@ export default function Footer() {
     <div
       style={{
         backgroundColor: "#2271b1",
-        display: "flex",
+        display: "block",
         flexGrow: "1",
-        height: "100%",
+        height: "30%",
+        width: "100%",
+        bottom: "0",
       }}
     >
       <h1>Contact Steven Lim</h1>

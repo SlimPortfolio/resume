@@ -69,11 +69,9 @@ function App() {
           <div className="hidden" id="projects" ref={projectsRef}>
             <Projects />
           </div>
-          <div>
-            <Footer />
-          </div>
         </Fragment>
       </header>
+      <Footer />
     </div>
   );
 }

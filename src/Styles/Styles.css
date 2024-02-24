@@ -144,6 +144,13 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+  transition: 0.3s;
+}
+
+.Skills-Box img:hover {
+  height: 110%;
+  width: 110%;
+  object-fit: contain;
 }
 
 .Skills-Box-Title {
